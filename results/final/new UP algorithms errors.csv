@@ -1,0 +1,34 @@
+,healing_up_method,weighted_up,weight_method,clear_noise,factor,alg_type,np_method,mc_method,beta,fixed_points,RMSE,MAPE,non-predictable,n_iterations,healing_match_eps
+0,db,True,pointwise_weights,False,0.8,s,fp,db,0.2,False,0.1331439613544001,0.4109522195672505,0.0,10,
+1,db,True,double_clustering,False,,s,rg,db,0.2,False,0.1305275085790222,0.1539921297947827,9.0,17,
+2,db,True,pointwise_weights,True,0.5,s,rd,wi,0.2,True,0.1210546222720606,0.3828215614529952,0.0,6,
+3,db,True,pointwise_weights,True,0.5,s,rd,db,0.2,True,0.1208274897396001,0.3795555331912563,0.0,6,
+4,db,True,pointwise_weights,True,0.9,s,rd,db,0.2,True,0.1209556180921037,0.3811315779055541,0.0,6,
+5,db,True,pointwise_weights,False,0.8,s,rd,db,0.2,False,0.128269321684865,0.4273265761224744,10.0,16,
+6,db,True,pointwise_weights,False,0.5,s,rd,db,0.2,False,0.1243033948492804,0.4053094752259261,7.000000000000001,11,
+7,db,True,pointwise_weights,False,0.6,s,rd,db,0.2,False,0.1255904728606429,0.4139188565633558,9.0,7,
+8,wi,True,pointwise_weights,True,0.4,s,rd,wi,0.2,True,0.1670704863845409,0.182134913115141,1.0,28,
+9,db,True,pattern_length_dist,True,,s,ls,wi,0.2,True,0.1228913997017896,0.3925690795388874,2.0,7,0.01
+10,db,True,dist,True,,s,ls,wi,0.2,True,0.1235325336015916,0.3942466681155094,2.0,7,0.01
+11,db,True,dist,True,,s,ls,wi,0.2,True,0.1547310921304987,0.4527426919170341,2.0,8,0.007
+12,db,True,pattern_length,False,,s,ls,wi,0.2,True,0.1221341158078744,0.3856320798578888,1.0,6,0.01
+13,db,True,pattern_length,False,,s,ls,wi,0.2,True,0.1241338948345325,0.3905879542332758,1.0,7,0.007
+14,db,True,pattern_length,False,,s,ls,wi,0.2,True,0.1241338948345325,0.3905879542332758,1.0,7,0.007
+15,db,True,pointwise_weights_jfrom1,True,0.4,s,rd,wi,0.2,True,0.0419044439924525,0.1008898620069205,0.0,8,0.01
+16,db,True,pointwise_weights_jfrom1,True,0.4,s,rd,wi,0.2,False,0.0430324130353633,0.1041614976767565,0.0,9,0.01
+17,db,True,j_dists,True,,s,ls,wi,0.2,False,0.0752031897363433,0.1407337902847918,2.0,13,0.01
+18,db,True,j_dist_factor,True,,s,ls,wi,0.2,True,0.0711955802063236,0.1232024778173281,2.0,10,0.01
+19,db,True,factor,False,0.9,s,"lcs-0.1-20 + weird patterns, eps=0.07",db,0.2,False,0.1229409470463157,0.410604636116416,11.0,8,0.01
+20,db,True,factor,False,0.9,s,"rd + weird patterns, eps=0.07 for self-healing",db,0.2,False,0.06225255619258871,0.04463879883091141,16.0,11,0.01
+21,db,False,,False,,s,rg,db,0.2,False,0.09446910034266151,0.0889314050997921,13.0,8,0.01
+22,db,False,,False,,s,ls,db,0.2,False,0.003089768281041294,0.007208285594753151,99.0,4,0.01
+23,db,False,,False,,s,rd,db,0.2,False,0.1117654128962297,0.38182039686744806,4.0,10,0.01
+24,db,False,,False,,s,rg,db,0.2,False,0.08221079245991295,0.07021183373337682,13.0,10,0.01
+25,db,False,dists,False,,s,"lcs_0.2_5, big leap",db,0.2,False,0.1530606482265605,0.45236413464276104,0.0,11,0.01
+26,db,False,,False,,s,rd,db,0.2,True,0.12343905195248377,0.3867404571230077,0.0,7,0.01
+27,db,False,,False,,s,"rd, big leap",db,0.2,False,0.13433710279096348,0.417956234002244,2.0,11,0.01
+28,db,False,,False,,s,"rd, big leap between iterations",db,0.2,False,0.04467069602338767,0.04174170771814751,7.000000000000001,5,0.01
+29,db,True,pattern_length,False,,s,rd,db,0.2,False,0.13941144535776587,0.44296603782718974,2.0,4,0.01
+30,db,True,dist,False,,s,rd,db,0.2,False,0.15529417036884635,0.4754147466528742,3.0,17,0.01
+31,db,True,weighted_average,False,,s,rd,db,0.2,True,0.13052750857902226,0.15399212979478274,9.0,17,0.01
+32,db,True,weighted_average,False,,s,rd,db,0.2,False,0.13845939050945294,0.18158660419571096,11.0,15,0.01
